@@ -130,7 +130,11 @@ func run() {
 //    let res = s.mySqrt(26)
 //    let res = s.climbStairs(3)
 //    let res = s.simplifyPath("/a/../../b/../c//.//")
-    let res = s.minDistance("intention", "execution")
+//    let res = s.minDistance("intention", "execution")
+//    var res = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
+//    s.setZeroes(&res)
+//    let res = s.searchMatrix([[1,3,5,7],[10,11,16,20],[23,30,34,60]], 13)
+    let res = s.searchMatrix([[1, 3]], 3)
     print(res)
 }
 
