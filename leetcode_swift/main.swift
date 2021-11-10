@@ -143,8 +143,11 @@ func run() {
 //    let res = s.combine(4, 3)
 //    let res = s.subsets([1, 2, 3])
 //    let res = s.exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "SEEC")
-    var nums = [0,0,1,1,1,1,2,3,3]
-    let res = s.removeDuplicates_II(&nums)
+//    var nums = [0,0,1,1,1,1,2,3,3]
+//    let res = s.removeDuplicates_II(&nums)
+//    let res = s.searchII([1,0,1,1,1], 0)
+    let res = s.searchII([1,3,5], 0)
+
     print(res)
 }
 
