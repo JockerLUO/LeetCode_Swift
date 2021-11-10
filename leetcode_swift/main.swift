@@ -134,7 +134,17 @@ func run() {
 //    var res = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
 //    s.setZeroes(&res)
 //    let res = s.searchMatrix([[1,3,5,7],[10,11,16,20],[23,30,34,60]], 13)
-    let res = s.searchMatrix([[1, 3]], 3)
+//    let res = s.searchMatrix([[1, 3]], 3)
+//    var res = [2,0,2,1,1,0]
+//    s.sortColors(&res)
+//    let res = s.minWindow("ADOBECODEBANC", "ABC")
+//    let res = s.minWindow("aaaaaaaaaaaabbbbbcdd", "abcdd")
+//    let res = s.minWindow("acbbaca", "aba")
+//    let res = s.combine(4, 3)
+//    let res = s.subsets([1, 2, 3])
+//    let res = s.exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "SEEC")
+    var nums = [0,0,1,1,1,1,2,3,3]
+    let res = s.removeDuplicates_II(&nums)
     print(res)
 }
 
