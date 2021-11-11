@@ -7,43 +7,6 @@
 
 import Foundation
 
-public class ListNode: NSObject {
-    public var val: Int
-    public var next: ListNode?
-    public override init() { self.val = 0; self.next = nil; }
-    public init(_ val: Int) { self.val = val; self.next = nil; }
-    public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
-    
-    static func format(_ ls: [Int])-> ListNode? {
-        guard !ls.isEmpty else {
-            return nil
-        }
-        
-        let headNode = ListNode(0)
-        var nextNode: ListNode?  = headNode
-        for i in ls {
-            nextNode?.next = ListNode(i)
-            nextNode = nextNode?.next
-        }
-        return headNode.next!
-    }
-    
-    public override var description: String {
-        
-        var next = self.next
-        var ls: [Int] = [val]
-        while next != nil {
-            ls.append(next!.val)
-            next = next?.next
-            if next === self {
-                break
-            }
-        }
-        return "\(ls)"
-    }
-}
-
-
 class Solution {
 }
 
@@ -146,8 +109,10 @@ func run() {
 //    var nums = [0,0,1,1,1,1,2,3,3]
 //    let res = s.removeDuplicates_II(&nums)
 //    let res = s.searchII([1,0,1,1,1], 0)
-    let res = s.searchII([1,3,5], 0)
-
+//    let res = s.searchII([1,3,5], 0)
+//    let res = s.deleteDuplicates_ll(ListNode.format([2,2]))
+//    let res = s.deleteDuplicates(ListNode.format([1,1,2,3,3]))
+    let res = s.largestRectangleArea([4,2,0,3,2,5])
     print(res)
 }
 
