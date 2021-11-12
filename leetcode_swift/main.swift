@@ -112,7 +112,11 @@ func run() {
 //    let res = s.searchII([1,3,5], 0)
 //    let res = s.deleteDuplicates_ll(ListNode.format([2,2]))
 //    let res = s.deleteDuplicates(ListNode.format([1,1,2,3,3]))
-    let res = s.largestRectangleArea([4,2,0,3,2,5])
+//    let res = s.largestRectangleArea([4,2,0,3,2,5])
+    let res = s.maximalRectangle([["0","0","0","0","0","0","1"],
+                                  ["0","0","0","0","1","1","1"],
+                                  ["1","1","1","1","1","1","1"],
+                                  ["0","0","0","1","1","1","1"]])
     print(res)
 }
 
