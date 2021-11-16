@@ -32,7 +32,12 @@ public class ListNode: NSObject {
         
         var next = self.next
         var ls: [Int] = [val]
+        var nodes = [ListNode]()
         while next != nil {
+            if nodes.contains(next!) {
+                break
+            }
+            nodes.append(next!)
             ls.append(next!.val)
             next = next?.next
             if next === self {
