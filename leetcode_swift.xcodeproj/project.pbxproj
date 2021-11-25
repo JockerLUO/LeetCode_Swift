@@ -33,6 +33,7 @@
 		CB4550AC272FBC1C0034931D /* 051_N-Queens.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4550AB272FBC1C0034931D /* 051_N-Queens.swift */; };
 		CB4550AE272FE5660034931D /* 052_N-Queens II.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4550AD272FE5660034931D /* 052_N-Queens II.swift */; };
 		CB4550B0272FE8040034931D /* 053_Maximum_Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4550AF272FE8040034931D /* 053_Maximum_Subarray.swift */; };
+		CB4F0314274CED64009AFCCB /* 087_Scramble_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F0313274CED64009AFCCB /* 087_Scramble_String.swift */; };
 		CB587C2B27016DBA007EC343 /* 022_Generate_Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB587C2A27016DBA007EC343 /* 022_Generate_Parentheses.swift */; };
 		CB587C2D27019283007EC343 /* 023_Merge_k_Sorted_Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB587C2C27019283007EC343 /* 023_Merge_k_Sorted_Lists.swift */; };
 		CB587C2F2701C3C3007EC343 /* 024_Swap_Nodes_in_Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB587C2E2701C3C3007EC343 /* 024_Swap_Nodes_in_Pairs.swift */; };
@@ -137,6 +138,7 @@
 		CB4550AB272FBC1C0034931D /* 051_N-Queens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "051_N-Queens.swift"; sourceTree = "<group>"; };
 		CB4550AD272FE5660034931D /* 052_N-Queens II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "052_N-Queens II.swift"; sourceTree = "<group>"; };
 		CB4550AF272FE8040034931D /* 053_Maximum_Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 053_Maximum_Subarray.swift; sourceTree = "<group>"; };
+		CB4F0313274CED64009AFCCB /* 087_Scramble_String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 087_Scramble_String.swift; sourceTree = "<group>"; };
 		CB587C2A27016DBA007EC343 /* 022_Generate_Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 022_Generate_Parentheses.swift; sourceTree = "<group>"; };
 		CB587C2C27019283007EC343 /* 023_Merge_k_Sorted_Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 023_Merge_k_Sorted_Lists.swift; sourceTree = "<group>"; };
 		CB587C2E2701C3C3007EC343 /* 024_Swap_Nodes_in_Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 024_Swap_Nodes_in_Pairs.swift; sourceTree = "<group>"; };
@@ -329,6 +331,7 @@
 				CBA211C9273CBE640087CD20 /* 084_Largest_Rectangle_in_Histogram.swift */,
 				CB06C713273E59FB00F55788 /* 085_Maximal_Rectangle.swift */,
 				CB860AE52742623B007FCFA1 /* 086_Partition_List.swift */,
+				CB4F0313274CED64009AFCCB /* 087_Scramble_String.swift */,
 			);
 			path = code;
 			sourceTree = "<group>";
@@ -478,6 +481,7 @@
 				CB860AE62742623B007FCFA1 /* 086_Partition_List.swift in Sources */,
 				CBD5DAF92738F9440039FC6D /* 066_Plus_One.swift in Sources */,
 				CB94340A273372AF00840077 /* 056_Merge_Intervals.swift in Sources */,
+				CB4F0314274CED64009AFCCB /* 087_Scramble_String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

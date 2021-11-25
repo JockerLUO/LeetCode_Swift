@@ -117,7 +117,8 @@ func run() {
 //                                  ["0","0","0","0","1","1","1"],
 //                                  ["1","1","1","1","1","1","1"],
 //                                  ["0","0","0","1","1","1","1"]])
-    let res = s.partition(ListNode.format([1,4,3,2,5,2]), 3)
+//    let res = s.partition(ListNode.format([1,4,3,2,5,2]), 3)
+    let res = s.isScramble("npfgmkuleygms", "ygksfmpngumle")
     print(res)
 }
 
