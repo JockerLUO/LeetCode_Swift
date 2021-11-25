@@ -118,7 +118,11 @@ func run() {
 //                                  ["1","1","1","1","1","1","1"],
 //                                  ["0","0","0","1","1","1","1"]])
 //    let res = s.partition(ListNode.format([1,4,3,2,5,2]), 3)
-    let res = s.isScramble("npfgmkuleygms", "ygksfmpngumle")
+//    let res = s.isScramble("npfgmkuleygms", "ygksfmpngumle")
+//    var res = [1,2,3,0,0,0]
+//    s.merge(&res, 3, [2,5,6], 3)
+//    let res = s.grayCode(3)
+    let res = s.subsetsWithDup([1,1])
     print(res)
 }
 
