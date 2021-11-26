@@ -122,7 +122,10 @@ func run() {
 //    var res = [1,2,3,0,0,0]
 //    s.merge(&res, 3, [2,5,6], 3)
 //    let res = s.grayCode(3)
-    let res = s.subsetsWithDup([1,1])
+//    let res = s.subsetsWithDup([1,1])
+//    let res = s.numDecodings("27")
+//    let res = s.reverseBetween(ListNode.format([1,2,3,4,5]), 2, 4)
+    let res = s.restoreIpAddresses("25525511135")
     print(res)
 }
 
