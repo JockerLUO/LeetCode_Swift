@@ -125,7 +125,10 @@ func run() {
 //    let res = s.subsetsWithDup([1,1])
 //    let res = s.numDecodings("27")
 //    let res = s.reverseBetween(ListNode.format([1,2,3,4,5]), 2, 4)
-    let res = s.restoreIpAddresses("25525511135")
+//    let n = TreeNode.format([5, 4, 7, 3, nil, 2, nil, -1, nil, 9])
+    
+//    let res = s.restoreIpAddresses("25525511135")
+    let res = s.inorderTraversal(TreeNode.format([1,nil,2,3]))
     print(res)
 }
 

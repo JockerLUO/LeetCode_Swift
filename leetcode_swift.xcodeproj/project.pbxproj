@@ -23,6 +23,7 @@
 		CB02502D270060F000DE4AEB /* 020_Valid_Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02502C270060F000DE4AEB /* 020_Valid_Parentheses.swift */; };
 		CB02502F2700645500DE4AEB /* 021_Merge_Two_Sorted_Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02502E2700645500DE4AEB /* 021_Merge_Two_Sorted_Lists.swift */; };
 		CB06C714273E59FB00F55788 /* 085_Maximal_Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB06C713273E59FB00F55788 /* 085_Maximal_Rectangle.swift */; };
+		CB13704F2755D22400147EA0 /* 094_Binary_Tree_Inorder_Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB13704E2755D22400147EA0 /* 094_Binary_Tree_Inorder_Traversal.swift */; };
 		CB19DDD326F442CC00EA1AAC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB19DDD226F442CC00EA1AAC /* main.swift */; };
 		CB19DDDA26F45B8300EA1AAC /* 001_Two_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB19DDD926F45B8300EA1AAC /* 001_Two_Sum.swift */; };
 		CB19DDDC26F45F4700EA1AAC /* 002_Add_Two_Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB19DDDB26F45F4700EA1AAC /* 002_Add_Two_Numbers.swift */; };
@@ -134,6 +135,7 @@
 		CB02502C270060F000DE4AEB /* 020_Valid_Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 020_Valid_Parentheses.swift; sourceTree = "<group>"; };
 		CB02502E2700645500DE4AEB /* 021_Merge_Two_Sorted_Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 021_Merge_Two_Sorted_Lists.swift; sourceTree = "<group>"; };
 		CB06C713273E59FB00F55788 /* 085_Maximal_Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 085_Maximal_Rectangle.swift; sourceTree = "<group>"; };
+		CB13704E2755D22400147EA0 /* 094_Binary_Tree_Inorder_Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 094_Binary_Tree_Inorder_Traversal.swift; sourceTree = "<group>"; };
 		CB19DDCF26F442CC00EA1AAC /* leetcode_swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode_swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB19DDD226F442CC00EA1AAC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CB19DDD926F45B8300EA1AAC /* 001_Two_Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 001_Two_Sum.swift; sourceTree = "<group>"; };
@@ -353,6 +355,7 @@
 				CB65920F2750749500E3D00F /* 091_Decode_Ways.swift */,
 				CB6592112750AF8600E3D00F /* 092_Reverse_Linked_Lis_ II.swift */,
 				CB6592132750CD8C00E3D00F /* 093_Restore_IP_Addresses.swift */,
+				CB13704E2755D22400147EA0 /* 094_Binary_Tree_Inorder_Traversal.swift */,
 			);
 			path = code;
 			sourceTree = "<group>";
@@ -482,6 +485,7 @@
 				CB88BBEA270402A5006BE7E1 /* 029_Divide_Two_Integers.swift in Sources */,
 				CBF050F32702C09C00507CBB /* 027_Remove_Element.swift in Sources */,
 				CBFE28622726FF34001F4C71 /* 046_Permutations.swift in Sources */,
+				CB13704F2755D22400147EA0 /* 094_Binary_Tree_Inorder_Traversal.swift in Sources */,
 				CBF050EF2702ABF100507CBB /* 025_Reverse_Nodes_i_ k-Group.swift in Sources */,
 				CB0250022700155700DE4AEB /* 018_4Sum.swift in Sources */,
 				CB4550A8272FBB500034931D /* 045_Jump_Game_II.swift in Sources */,
