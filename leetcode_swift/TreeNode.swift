@@ -73,15 +73,41 @@ public class TreeNode: NSObject {
     
     public override var description: String {
         get {
-            var description = "\(val)"
-            if let left = left {
-                description.append("\( left.val)")
-            }
-            if let right = right {
-                description.append("\( right.val)")
-            }
-            description = "(\(description))"
-            return description
+            return traversal().description
+        }
+    }
+    
+    enum TraversalType {
+        ///前序
+        case preorder
+        ///中序
+        case inorder
+        ///后序
+        case postorder
+
+    }
+    
+    func traversal(_ type: TraversalType = .inorder) -> [Int] {
+        var nums = [Int]()
+        _traversal(self, &nums, type)
+        return nums
+    }
+    
+    private func _traversal(_ node:TreeNode, _ nums: inout [Int], _ type: TraversalType) {
+        if type == .preorder {
+            nums.append(node.val)
+        }
+        if let leftNode = node.left {
+            _traversal(leftNode, &nums, type)
+        }
+        if type == .inorder {
+            nums.append(node.val)
+        }
+        if let rightNode = node.right {
+            _traversal(rightNode, &nums, type)
+        }
+        if type == .postorder {
+            nums.append(node.val)
         }
     }
 }

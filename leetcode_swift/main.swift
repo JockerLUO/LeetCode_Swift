@@ -128,7 +128,10 @@ func run() {
 //    let n = TreeNode.format([5, 4, 7, 3, nil, 2, nil, -1, nil, 9])
     
 //    let res = s.restoreIpAddresses("25525511135")
-    let res = s.inorderTraversal(TreeNode.format([1,nil,2,3]))
+//    let res = s.inorderTraversal(TreeNode.format([1,nil,2,3]))
+//    let res = s.generateTrees(5)
+//    let res = s.numTrees(5)
+    let res = s.isInterleave("aabcc", "dbbca", "aadbbcbcac")
     print(res)
 }
 

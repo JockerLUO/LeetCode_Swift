@@ -18,7 +18,7 @@ extension Solution {
         }
         
         let lsh = haystack.count, lsn = needle.count
-        let next = self.makeNext(needle)
+        let next = makeNext(needle)
         
         let hl = Array(haystack)
         let nl = Array(needle)

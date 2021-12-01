@@ -25,7 +25,7 @@ extension Solution {
         var res = [String]()
         let ls = Array(digits)
         
-        let posfix = self.letterCombinations(String(ls[1...]))
+        let posfix = letterCombinations(String(ls[1...]))
         let lm = Array(Self.dmap[ls[0]]!)
         for m in lm {
             if !posfix.isEmpty {
