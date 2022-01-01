@@ -131,7 +131,8 @@ func run() {
 //    let res = s.inorderTraversal(TreeNode.format([1,nil,2,3]))
 //    let res = s.generateTrees(5)
 //    let res = s.numTrees(5)
-    let res = s.isInterleave("aabcc", "dbbca", "aadbbcbcac")
+//    let res = s.isInterleave("aabcc", "dbbca", "aadbbcbcac")
+    let res = s.isValidBST(TreeNode.format([5,1,4,nil,nil,3,6]))
     print(res)
 }
 

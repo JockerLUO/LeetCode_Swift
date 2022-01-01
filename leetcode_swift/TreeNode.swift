@@ -46,6 +46,7 @@ public class TreeNode: NSObject {
                 let node = TreeNode(num!)
                 if leftFlag {
                     curr.left = node
+                    leftFlag = false
                 } else {
                     curr.right = node
                     shift = true

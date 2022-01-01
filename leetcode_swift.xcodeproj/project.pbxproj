@@ -33,6 +33,8 @@
 		CB2B35EB2710A03200069171 /* 035_Search_Insert_Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2B35EA2710A03200069171 /* 035_Search_Insert_Position.swift */; };
 		CB2B35ED2713D6F200069171 /* 036_Valid Sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2B35EC2713D6F200069171 /* 036_Valid Sudoku.swift */; };
 		CB2B35EF2713E3D700069171 /* 037_Sudoku_Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2B35EE2713E3D700069171 /* 037_Sudoku_Solver.swift */; };
+		CB40B9312757703200A209B9 /* 098_Validate_Binary_Search_Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40B9302757703200A209B9 /* 098_Validate_Binary_Search_Tree.swift */; };
+		CB40B933275774EF00A209B9 /* 099_Recover_Binary_Search_Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40B932275774EF00A209B9 /* 099_Recover_Binary_Search_Tree.swift */; };
 		CB4550A8272FBB500034931D /* 045_Jump_Game_II.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4550A7272FBB500034931D /* 045_Jump_Game_II.swift */; };
 		CB4550AC272FBC1C0034931D /* 051_N-Queens.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4550AB272FBC1C0034931D /* 051_N-Queens.swift */; };
 		CB4550AE272FE5660034931D /* 052_N-Queens II.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4550AD272FE5660034931D /* 052_N-Queens II.swift */; };
@@ -149,6 +151,8 @@
 		CB2B35EA2710A03200069171 /* 035_Search_Insert_Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 035_Search_Insert_Position.swift; sourceTree = "<group>"; };
 		CB2B35EC2713D6F200069171 /* 036_Valid Sudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "036_Valid Sudoku.swift"; sourceTree = "<group>"; };
 		CB2B35EE2713E3D700069171 /* 037_Sudoku_Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 037_Sudoku_Solver.swift; sourceTree = "<group>"; };
+		CB40B9302757703200A209B9 /* 098_Validate_Binary_Search_Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 098_Validate_Binary_Search_Tree.swift; sourceTree = "<group>"; };
+		CB40B932275774EF00A209B9 /* 099_Recover_Binary_Search_Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 099_Recover_Binary_Search_Tree.swift; sourceTree = "<group>"; };
 		CB4550A7272FBB500034931D /* 045_Jump_Game_II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 045_Jump_Game_II.swift; sourceTree = "<group>"; };
 		CB4550AB272FBC1C0034931D /* 051_N-Queens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "051_N-Queens.swift"; sourceTree = "<group>"; };
 		CB4550AD272FE5660034931D /* 052_N-Queens II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "052_N-Queens II.swift"; sourceTree = "<group>"; };
@@ -365,6 +369,8 @@
 				CB1370502755F2CB00147EA0 /* 095_Unique_Binary_Search_Trees_II.swift */,
 				CB137052275615F300147EA0 /* 096_Unique_Binary_Search_Trees.swift */,
 				CB13705427561E5800147EA0 /* 097_Interleaving_String.swift */,
+				CB40B9302757703200A209B9 /* 098_Validate_Binary_Search_Tree.swift */,
+				CB40B932275774EF00A209B9 /* 099_Recover_Binary_Search_Tree.swift */,
 			);
 			path = code;
 			sourceTree = "<group>";
@@ -426,6 +432,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB40B933275774EF00A209B9 /* 099_Recover_Binary_Search_Tree.swift in Sources */,
 				CBDB828C2717CDE800BE2C7B /* 043_Multiply_Strings.swift in Sources */,
 				CB19DDDA26F45B8300EA1AAC /* 001_Two_Sum.swift in Sources */,
 				CB02502D270060F000DE4AEB /* 020_Valid_Parentheses.swift in Sources */,
@@ -455,6 +462,7 @@
 				CB02502F2700645500DE4AEB /* 021_Merge_Two_Sorted_Lists.swift in Sources */,
 				CBD5DAEF2738BD1C0039FC6D /* 061_Rotate_List.swift in Sources */,
 				CBF050F12702BBFB00507CBB /* 026_Remove_Duplicates_from_Sorted_Array.swift in Sources */,
+				CB40B9312757703200A209B9 /* 098_Validate_Binary_Search_Tree.swift in Sources */,
 				CB2B35EB2710A03200069171 /* 035_Search_Insert_Position.swift in Sources */,
 				CB94340E2735029800840077 /* 058_Length_of_Last_Word.swift in Sources */,
 				CB024FFC26FDD56E00DE4AEB /* 015_3Sum.swift in Sources */,
