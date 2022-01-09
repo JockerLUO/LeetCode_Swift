@@ -132,7 +132,14 @@ func run() {
 //    let res = s.generateTrees(5)
 //    let res = s.numTrees(5)
 //    let res = s.isInterleave("aabcc", "dbbca", "aadbbcbcac")
-    let res = s.isValidBST(TreeNode.format([5,1,4,nil,nil,3,6]))
+//    let res = s.isValidBST(TreeNode.format([5,1,4,nil,nil,3,6]))
+//    let res = TreeNode.format([3,1,4,nil,nil,2])
+//    s.recoverTree(res)
+//    let res = s.isSameTree(TreeNode.format([1,2]), TreeNode.format([1,nil,2]))
+//    let res = s.isSymmetric(TreeNode.format([7,-64,-64,-6,-90,-90,-6,88,-44,68,-65,-76,68,-44,88]))
+//    let res = s.levelOrder(TreeNode.format([3,9,20,nil,nil,15,7]))
+//    let res = s.zigzagLevelOrder(TreeNode.format([3,9,20,nil,nil,15,7]))
+    let res = s.maxDepth(TreeNode.format([3,9,20,nil,nil,15,7]))
     print(res)
 }
 

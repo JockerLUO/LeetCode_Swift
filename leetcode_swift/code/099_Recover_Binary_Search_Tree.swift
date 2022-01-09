@@ -10,29 +10,47 @@ import Foundation
 extension Solution {
     func recoverTree(_ root: TreeNode?) {
         guard let root = root else { return }
-        var nums = [Int]()
-        _traversal(root, &nums)
+        Self.flag = false
+        Self.node1 = nil
+        Self.node2 = nil
+//        print(root)
+        _recoverTree(root)
+        
+        if let node1 = Self.node1, let node2 = Self.node2 {
+            let temp = node2.val
+            node2.val = node1.val
+            node1.val = temp
+        }
+        
+//        print(root)
     }
         
-    @discardableResult
-    private func _traversal(_ node:TreeNode, _ nums: inout [Int]) -> Bool {
+    static var flag = false
+    static var node1: TreeNode?
+    static var node2: TreeNode?
         
-        if let leftNode = node.left {
-            if !_traversal(leftNode, &nums) {
-                return false
+    private func _recoverTree(_ node:TreeNode) {
+        if Self.flag {
+            return
+        }
+        
+        if let lNode = node.left {
+            _recoverTree(lNode)
+        }
+        
+        if let node1 = Self.node1, node1.val > node.val {
+//            print(node.val)
+            Self.node2 = node
+        } else {
+            if Self.node2 == nil {
+                Self.node1 = node
+            } else {
+                Self.flag = true
             }
         }
-        
-        if let last = nums.last, last >= node.val {
-            return false
-        }
-        nums.append(node.val)
 
-        if let rightNode = node.right {
-            if !_traversal(rightNode, &nums) {
-                return false
-            }
+        if let rNode = node.right {
+            _recoverTree(rNode)
         }
-        return true
     }
 }
