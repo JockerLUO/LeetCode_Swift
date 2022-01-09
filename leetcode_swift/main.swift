@@ -139,7 +139,9 @@ func run() {
 //    let res = s.isSymmetric(TreeNode.format([7,-64,-64,-6,-90,-90,-6,88,-44,68,-65,-76,68,-44,88]))
 //    let res = s.levelOrder(TreeNode.format([3,9,20,nil,nil,15,7]))
 //    let res = s.zigzagLevelOrder(TreeNode.format([3,9,20,nil,nil,15,7]))
-    let res = s.maxDepth(TreeNode.format([3,9,20,nil,nil,15,7]))
+//    let res = s.maxDepth(TreeNode.format([3,9,20,nil,nil,15,7]))
+//    let res = s.buildTree([9,3,15,20,7], [9,15,7,20,3])
+    let res = s.buildTree_II([9,3,15,20,7], [9,15,7,20,3])
     print(res)
 }
 

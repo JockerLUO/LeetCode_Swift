@@ -74,7 +74,10 @@ public class TreeNode: NSObject {
     
     public override var description: String {
         get {
-            return traversal().description
+            let s = Solution()
+            return s.levelOrder(self).description
+            
+//            return traversal().description
         }
     }
     
