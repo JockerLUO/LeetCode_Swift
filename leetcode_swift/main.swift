@@ -141,7 +141,15 @@ func run() {
 //    let res = s.zigzagLevelOrder(TreeNode.format([3,9,20,nil,nil,15,7]))
 //    let res = s.maxDepth(TreeNode.format([3,9,20,nil,nil,15,7]))
 //    let res = s.buildTree([9,3,15,20,7], [9,15,7,20,3])
-    let res = s.buildTree_II([9,3,15,20,7], [9,15,7,20,3])
+//    let res = s.buildTree_II([9,3,15,20,7], [9,15,7,20,3])
+//    let res = s.sortedArrayToBST([-10,-3,0,5,9])
+//    let res = s.sortedListToBST(ListNode.format([-10,-3,0,5,9]))
+//    let res = s.isBalanced(TreeNode.format([1,2,2,3,3,nil,nil,4,4]))
+//    let res = s.minDepth(TreeNode.format([3,9,20,nil,nil,15,7]))
+//    let res = s.hasPathSum(TreeNode.format([5,4,8,11,nil,13,4,7,2,nil,nil,nil,1]), 22)
+//    let res = s.pathSum(TreeNode.format([5,4,8,11,nil,13,4,7,2,nil,nil,5,1]), 22)
+    let res = TreeNode.format([1,2,5,3,4,nil,6])
+    s.flatten(res)
     print(res)
 }
 
