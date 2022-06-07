@@ -159,8 +159,21 @@ func run() {
 //    let res = s.maxProfit([7,1,5,3,6,4])
 //    let res = s.maxProfit_II([7,1,5,3,6,4])
 //    let res = s.maxProfit_III([1,2,4,2,5,7,2,4,9,0])
-    let res = s.maxPathSum(TreeNode(nums: [5,4,8,11,nil,13,4,7,2,nil,nil,nil,1]))
-//    let res = s.maxPathSum(TreeNode(nums: [-3]))
+//    let res = s.maxPathSum(TreeNode(nums: [5,4,8,11,nil,13,4,7,2,nil,nil,nil,1]))
+//    let res = s.isPalindrome("race a car")
+//    let res = s.findLadders("leet", "code", ["lest","leet","lose","code","lode","robe","lost"])
+//    let res = s.findLadders("qa", "sq", ["si","go","se","cm","so","ph","mt","db","mb","sb","kr","ln","tm","le","av","sm","ar","ci","ca","br","ti","ba","to","ra","fa","yo","ow","sn","ya","cr","po","fe","ho","ma","re","or","rn","au","ur","rh","sr","tc","lt","lo","as","fr","nb","yb","if","pb","ge","th","pm","rb","sh","co","ga","li","ha","hz","no","bi","di","hi","qa","pi","os","uh","wm","an","me","mo","na","la","st","er","sc","ne","mn","mi","am","ex","pt","io","be","fm","ta","tb","ni","mr","pa","he","lr","sq","ye"])
+//    let res = s.ladderLength("hit", "cog", ["hot","dot","dog","lot","log","cog"])
+//    let res = s.findLadders("ymain", "oecij", ["ymann","yycrj","oecij","ymcnj","yzcrj","yycij","xecij","yecij","ymanj","yzcnj","ymain"])
+//    let res = s.ladderLength("ymain", "oecij", ["ymann","yycrj","oecij","ymcnj","yzcrj","yycij","xecij","yecij","ymanj","yzcnj","ymain"])
+
+
+//    let res = s.ladderLength("qa", "sq", ["si","go","se","cm","so","ph","mt","db","mb","sb","kr","ln","tm","le","av","sm","ar","ci","ca","br","ti","ba","to","ra","fa","yo","ow","sn","ya","cr","po","fe","ho","ma","re","or","rn","au","ur","rh","sr","tc","lt","lo","as","fr","nb","yb","if","pb","ge","th","pm","rb","sh","co","ga","li","ha","hz","no","bi","di","hi","qa","pi","os","uh","wm","an","me","mo","na","la","st","er","sc","ne","mn","mi","am","ex","pt","io","be","fm","ta","tb","ni","mr","pa","he","lr","sq","ye"])
+//    let res = s.longestConsecutive([0,3,7,2,5,8,4,6,0,1])
+//    let res = s.sumNumbers(TreeNode(nums: [1,2,3]))
+//    var res: [[Character]] = [["X","X","X","X"],["X","O","O","X"],["X","X","O","X"],["X","O","X","X"]]
+//    s.solve(&res)
+    let res = s.partition("bb")
     print(res)
 }
 

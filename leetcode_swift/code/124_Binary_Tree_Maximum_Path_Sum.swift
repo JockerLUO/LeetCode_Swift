@@ -24,19 +24,21 @@ extension Solution {
         let rightRes = _maxPathSum(root.right)
         let val = root.val
         
+        ///可以和根节点链接的路径
         let linkPath = [
             val,
             leftRes.0 + val,
             rightRes.0 + val,
-        ] ///可链接的最大值
+        ]
         
+        ///不可以和根节点链接的路径
         let unliknPath = [
             leftRes.0,
             leftRes.1,
             rightRes.0,
             rightRes.1,
             leftRes.0 + rightRes.0 + val,
-        ] ///不可链接的最大值
+        ]
         return (linkPath.max()!, unliknPath.max()!)
     }
 }
