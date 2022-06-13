@@ -173,7 +173,13 @@ func run() {
 //    let res = s.sumNumbers(TreeNode(nums: [1,2,3]))
 //    var res: [[Character]] = [["X","X","X","X"],["X","O","O","X"],["X","X","O","X"],["X","O","X","X"]]
 //    s.solve(&res)
-    let res = s.partition("bb")
+//    let res = s.partition("bb")
+//    let res = s.minCut("ababababababababababababcbabababababababababababa")
+//    let res = s.cloneGraph(Node(graghNums: [[2,4],[1,3],[2,4],[1,3]]))
+//    let res = s.canCompleteCircuit([2,3,4], [3,4,3])
+//    let res = s.candy([1,2,2])
+//    let res = s.singleNumber([4,1,2,1,2,4,100])
+    let res = s.singleNumber_II([-2,-2,1,1,4,1,4,4,-4,-2])
     print(res)
 }
 

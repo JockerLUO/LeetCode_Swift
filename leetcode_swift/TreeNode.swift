@@ -190,12 +190,12 @@ extension TreeNodeProtocol {
 
 public class TreeNode: NSObject, TreeNodeProtocol {
     
-    public var val: Int
-    public var left: TreeNode?
-    public var right: TreeNode?
-    public override init() { self.val = 0; self.left = nil; self.right = nil; }
+    var val: Int
+    var left: TreeNode?
+    var right: TreeNode?
+    override init() { self.val = 0; self.left = nil; self.right = nil; }
     required public init(_ val: Int) { self.val = val; self.left = nil; self.right = nil; }
-    public init(_ val: Int, _ left: TreeNode?, _ right: TreeNode?) {
+    init(_ val: Int, _ left: TreeNode?, _ right: TreeNode?) {
         self.val = val
         self.left = left
         self.right = right
@@ -207,19 +207,33 @@ public class TreeNode: NSObject, TreeNodeProtocol {
 }
 
 public class Node: NSObject, TreeNodeProtocol {
-    public var val: Int
-    public var left: Node?
-    public var right: Node?
-    public var next: Node?
-    public required  init(_ val: Int) {
+    var val: Int
+    var left: Node?
+    var right: Node?
+    var next: Node?
+    required  init(_ val: Int) {
         self.val = val
-        self.left = nil
-        self.right = nil
-        self.next = nil
     }
     
     public override var description: String {
         return descripMap()
+    }
+    
+    ///用于133题
+    var neighbors: [Node?] = []
+    convenience init(graghNums: [[Int]]) {
+        self.init(1)
+        var nodeMap = [Int: Node]()
+        nodeMap[1] = self
+        for i in 0..<graghNums.count {
+            for j in graghNums[i] {
+                let node = nodeMap[i + 1] ?? Node(i + 1)
+                nodeMap[i + 1] = node
+                let hNode = nodeMap[j] ?? Node(j)
+                nodeMap[j] = hNode
+                node.neighbors.append(hNode)                
+            }
+        }
     }
 }
 
