@@ -179,7 +179,12 @@ func run() {
 //    let res = s.canCompleteCircuit([2,3,4], [3,4,3])
 //    let res = s.candy([1,2,2])
 //    let res = s.singleNumber([4,1,2,1,2,4,100])
-    let res = s.singleNumber_II([-2,-2,1,1,4,1,4,4,-4,-2])
+//    let res = s.singleNumber_II([-2,-2,1,1,4,1,4,4,-4,-2])
+//    let res = s.wordBreak("applepenapple", ["apple", "pen"])
+//    let res = s.wordBreak_II("pineapplepenapple", ["apple","pen","applepen","pine","pineapple"])
+    let res = s.wordBreak_II("a", ["a"])
+//    let res = s.wordBreak_II("ab", ["a", "b", "ab"])
+
     print(res)
 }
 
