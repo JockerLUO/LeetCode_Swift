@@ -182,9 +182,12 @@ func run() {
 //    let res = s.singleNumber_II([-2,-2,1,1,4,1,4,4,-4,-2])
 //    let res = s.wordBreak("applepenapple", ["apple", "pen"])
 //    let res = s.wordBreak_II("pineapplepenapple", ["apple","pen","applepen","pine","pineapple"])
-    let res = s.wordBreak_II("a", ["a"])
+//    let res = s.wordBreak_II("a", ["a"])
 //    let res = s.wordBreak_II("ab", ["a", "b", "ab"])
-
+//    let res = ListNode.format([1,2,3,4])
+//    s.reorderList(res)
+//    let res = s.preorderTraversal(TreeNode(nums: [1,2,3,nil,5,6]))
+    let res = s.postorderTraversal(TreeNode(nums: [1,2,3,nil,5,6,7]))
     print(res)
 }
 
