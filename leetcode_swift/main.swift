@@ -187,7 +187,23 @@ func run() {
 //    let res = ListNode.format([1,2,3,4])
 //    s.reorderList(res)
 //    let res = s.preorderTraversal(TreeNode(nums: [1,2,3,nil,5,6]))
-    let res = s.postorderTraversal(TreeNode(nums: [1,2,3,nil,5,6,7]))
+//    let res = s.postorderTraversal(TreeNode(nums: [1,2,3,nil,5,6,7]))
+    
+//    let ls = [[2],[2,1],[3,2],[3],[2],[4,3],[2],[3],[4]]
+//    let cache = LRUCache(ls[0][0])
+//    for i in 1..<ls.count {
+//        let l = ls[i]
+//        if l.count == 1 {
+//            print(cache.get(l[0]))
+//        } else {
+//            print(cache.put(l[0], l[1]))
+//        }
+//    }
+    
+//    let res = s.insertionSortList(ListNode.format([4,2,1,3,6,5,8,2]))
+//    let res = s.sortList(ListNode.format([4,19,14,5,-3,1,8,5,11,15]))
+//    let res = s.maxPoints([[1,1],[3,2],[5,3],[4,1],[2,3],[1,4]])
+    let res = s.maxPoints([[1,1],[2,2],[3,3]])
     print(res)
 }
 

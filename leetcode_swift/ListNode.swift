@@ -28,8 +28,7 @@ public class ListNode: NSObject {
         return headNode.next!
     }
     
-    public override var description: String {
-        
+    var list: [Int] {
         var next = self.next
         var ls: [Int] = [val]
         var nodes = [ListNode]()
@@ -44,6 +43,10 @@ public class ListNode: NSObject {
                 break
             }
         }
-        return "\(ls)"
+        return ls
+    }
+    
+    public override var description: String {
+        return "\(list)"
     }
 }
