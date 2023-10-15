@@ -204,7 +204,26 @@ func run() {
 //    let res = s.sortList(ListNode.format([4,19,14,5,-3,1,8,5,11,15]))
 //    let res = s.maxPoints([[1,1],[3,2],[5,3],[4,1],[2,3],[1,4]])
     let res = s.maxPoints([[1,1],[2,2],[3,3]])
-    print(res)
+    print(res)    
+    
+    //通胀率
+    let infR: Double = 0.03
+    var infRate = 1 + infR
+    //年消费
+    let conY: Double = 30000
+    //年收益:定期利率
+    let intRate: Double = 0.03
+    //预计生存年
+    let year = 33
+    
+    //资产
+    var asset: Double = 1_000_000
+    for _ in 0..<year {
+        asset = asset * (1 + intRate) - (conY) * infRate
+        infRate = infRate * (1 + infR)
+    }
+    print(asset)
+
 }
 
 run()
